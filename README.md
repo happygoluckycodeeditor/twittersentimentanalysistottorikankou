@@ -1,7 +1,7 @@
 # twittersentimentanalysistottorikankou
 I did Twitter Sentiment analysis on the subject of Tottori's Tourism and then visually plotted the results
 
-Sentiment analysis is a very popular method of doing market research by performing data mining of opinion, then doing natural language processing and presenting or studying the results for any particular purposes
+Sentiment analysis is a very popular method of doing market research by performing data mining of opinion, then doing natural language processing and presenting or studying the results for any particular purpose, for example: Understanding the senitment of population towards a policy, product or thoughts and opinions
 
 For this analysis I have done the following things to do analysis on Twitter's perception on Tottori Prefecture
 ツイッターのユーザの鳥取観光についてどう思っているのかをセンチメント分析の方法で行います。
@@ -39,7 +39,8 @@ Now, for verification, lets check our twitter mined dataset
 Looks good to me, however, as you can see, the tweets are in Japanese and the Natural Language processing packages cannot process Japanese yet, so we will translate all the tweets to English!
 ![image](https://user-images.githubusercontent.com/110551323/220213062-b4b559d3-b989-4a88-8f14-b9228c7b8dd6.png)
 
-We have successfully translated all the tweets from Japanese to english and also created a new CSV file with all the translated data in the english column
+We have successfully translated all the tweets from Japanese to english and also created a new CSV file with all the translated data in the english column.
+☀️It is important to note that, since we do not translate directly and use machine translation, it might lose some level of accuracy! 
 
 Now lets install some libraries for Sentiment analysis, I like NLTK and TRANSFORMERS
 
